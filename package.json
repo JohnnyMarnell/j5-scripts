@@ -1,0 +1,32 @@
+{
+  "name": "j5-scripts",
+  "version": "0.0.1",
+  "description": "Johnny Marnell's scripts",
+  "keywords": [
+    "Johnny",
+    "Marnell",
+    "midi",
+    "ffmpeg",
+    "zx"
+  ],
+  "author": "Johnny Marnell <johnnymarnell@gmail.com>",
+  "homepage": "https://github.com/JohnnyMarnell",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnnyMarnell/j5-scripts"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.14.10"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "zx": "^5.0.0"
+  },
+  "bin": {
+    "j5-ffmpeg": "./ffmpeg.mjs"
+  },
+  "bundleDependencies": [],
+  "private": false,
+  "license": "MIT"
+}
