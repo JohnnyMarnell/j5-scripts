@@ -1,6 +1,6 @@
 #!/usr/bin/env npx zx
 
-import 'zx/globals'
+import('zx/globals').catch(e => {})
 
 /* Grab and transcode from GoPro / devices */
 async function xcode() {
