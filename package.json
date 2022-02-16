@@ -1,6 +1,6 @@
 {
   "name": "j5-scripts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Johnny Marnell's scripts",
   "keywords": [
     "Johnny",
@@ -21,9 +21,12 @@
   },
   "type": "commonjs",
   "dependencies": {
-    "zx": "^5.0.0"
+    "zx": "^5.0.0",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1"
   },
   "bin": {
+    "jawk": "./jawk.js",
     "j5-ffmpeg": "./ffmpeg.mjs"
   },
   "bundleDependencies": [],
