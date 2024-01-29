@@ -1,5 +1,5 @@
 # j5-scripts
-Bunch of CLI helpers I've started creating.
+Some CLI helpers, trying to organize them.
 
 ### Install
 Via `npm` standard:
@@ -11,6 +11,7 @@ npm install -g https://github.com/JohnnyMarnell/scripts
 (twerk in brogress)
 
 ### Summary
-Most will use the great [zx](https://github.com/google/zx).
+Examples: ffmpeg common workflows wrapper, jAwk: awk subset with javascript syntax / support.
+Some might use [zx](https://github.com/google/zx).
 
 See [package.json](./package.json) `"bin"` section for the tools provided.
